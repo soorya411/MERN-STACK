@@ -1,0 +1,40 @@
+.row{
+    width: 700px;
+    height: 500px;
+    background-color: lightblue;
+    position: relative;
+}
+.col{
+    width: 100px;
+    height: 200px;
+    background-color: blue;
+    margin: 10px;
+    position: absolute;
+}
+.col:hover{
+    background-color: yellow;
+    border-radius: 50px 10px 30px 10px;
+}
+.col1{
+    left: 150px;
+    background-color: rgb(64, 3, 135);
+    top: 100px;
+}
+.col1:hover{
+    background-color: yellow;
+}
+.col2{
+    left: 300px;
+    background-color: goldenrod;
+}
+.col2:hover{
+    background-color: yellow;
+}
+.col3{
+    top: 100px;
+    left: 450px;
+    background-color: darkolivegreen;
+}
+.col3:hover{
+    background-color: yellow;
+}

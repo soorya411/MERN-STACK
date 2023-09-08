@@ -1,0 +1,16 @@
+div{
+    background-color: aqua;
+}
+div:hover{
+    width: 400px;
+    height: 200px;
+    color: blueviolet;
+    background-color: rgb(233, 27, 185);
+    
+ 
+}
+/* pseudo element selector */
+p::first-line{
+    color: darkred;
+    font-variant: small-caps;
+}

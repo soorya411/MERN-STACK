@@ -1,0 +1,33 @@
+/* parent div */
+.row{
+    background-color: gold;
+    height: 500px;
+    width: 700px;
+    display: flex;
+    align-items: center; 
+    /* start ,end ,center */
+    justify-content:center;
+    /* center ,space-around ,space-between ,flex-start ,flex-end */
+    flex-direction: row;
+    /* column ,column-reverse ,row ,row-reverse */
+}
+/* child div */
+.col{
+    width: 100px;
+    height: 200px;
+    margin: 10px;
+    background-color: red;
+   border: 10px solid white;
+}
+.col1{
+    background-color: green;
+}
+.col2{
+    background-color: blue;
+}
+.col3{
+    background-color: violet;
+}
+.col4{
+    background-color: crimson;
+}

@@ -1,0 +1,8 @@
+/* external css styling */
+p{
+    width: 50%;
+    height: 50%;
+    border: 2px double red;
+    border-radius: 2px;
+   
+}
